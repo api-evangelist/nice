@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-NICE is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://www.nice.com
+NICE provides a comprehensive Customer Experience (CX) AI platform that orchestrates human and AI agents, automates service, and empowers workforces. Their solutions span enterprise CX AI, integrations, cloud architecture, and agent workspaces, delivering scalable intelligent experiences across industries.
+
+**Areas:** Company · Customer Experience · Artificial Intelligence · Cloud · Integration
+
+## NICE on APIs.io
+
+Everything profiled for NICE is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nice/](https://apis.io/providers/nice/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [NICE Contact Center API](https://apis.io/apis/nice/nice-contact-center-api/) — API for NICE Contact Center platform, providing endpoints for contact management, reporting, and integration.
+- [NICE Channels API](https://apis.io/apis/nice/nice-channels-api/) — The Channels API from NICE — 1 operation(s) for channels.
+- [NICE Contacts API](https://apis.io/apis/nice/nice-contacts-api/) — The Contacts API from NICE — 1 operation(s) for contacts.
+- [NICE Incontactapi API](https://apis.io/apis/nice/nice-incontactapi-api/) — The Incontactapi API from NICE — 3 operation(s) for incontactapi.
+- [NICE Perform Action API](https://apis.io/apis/nice/nice-perform-action-api/) — The Perform Action API from NICE — 1 operation(s) for perform action.
+- [NICE Result API](https://apis.io/apis/nice/nice-result-api/) — The Result API from NICE — 1 operation(s) for result.
+- [NICE Segments API](https://apis.io/apis/nice/nice-segments-api/) — The Segments API from NICE — 1 operation(s) for segments.
+- [NICE Status API](https://apis.io/apis/nice/nice-status-api/) — The Status API from NICE — 1 operation(s) for status.
+- [NICE User Management API](https://apis.io/apis/nice/nice-user-management-api/) — The User Management API from NICE — 14 operation(s) for user management.
+- [NICE Voice Print Status API](https://apis.io/apis/nice/nice-voice-print-status-api/) — The Voice Print Status API from NICE — 1 operation(s) for voice print status.
+- [NICE .well Known API](https://apis.io/apis/nice/nice-well-known-api/) — The .well Known API from NICE — 1 operation(s) for .well known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Nice Webhooks](https://apis.io/asyncapis/nice/nice-webhooks/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetStatusRequestidResponse](https://apis.io/schemas/nice/nice-get-status-requestid-response/)
+- [GetWellKnownOpenidConfigurationResponse](https://apis.io/schemas/nice/nice-get-well-known-openid-configuration-response/)
+- [PostChannelsRequest](https://apis.io/schemas/nice/nice-post-channels-request/)
+- [PostContactsResponse](https://apis.io/schemas/nice/nice-post-contacts-response/)
+- [PostSegmentsResponse](https://apis.io/schemas/nice/nice-post-segments-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nice Context](https://apis.io/jsonld/nice/nice-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [NICE API Rules](https://apis.io/rules/nice/nice-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nice Authentication](https://apis.io/security/nice/nice-authentication/)
+- [Nice Domain Security](https://apis.io/security/nice/nice-domain-security/)
+- [Nice Trust Center](https://apis.io/security/nice/nice-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.nice.com)
+- [Documentation](https://developer.niceincontact.com/Documentation)
+- [Getting started](https://developer.niceincontact.com/Documentation/GettingStarted)
+- [Pricing](https://www.nice.com/pricing)
+- [Support](https://www.nice.com/services/customer-support)
+- [Blog](https://www.nice.com/blog)
+- [Compliance](https://www.nice.com/company/trust-center)
+- [Terms of service](https://www.nice.com/company/legal/terms-of-use)
+- [Privacy policy](https://www.nice.com/company/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 42.3** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 32.4 |
+| Contract governance | 35.6 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 47.4 |
+
+**Agent readiness 22.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nice/](https://apis.io/providers/nice/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for NICE: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nice/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
